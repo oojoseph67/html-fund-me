@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fund Me App</title>
+</head>
+<body>
+
+    <h1>Hello ! <br> Please Fund Me</h1>
+    <button id="connectButton"> Connect </button>
+    <br><br><br>
+    <!-- <button id="disconnectButton"> Disconnect </button> -->
+
+    <button id="balanceButton"> Get Balance </button>
+    <br><br><br>
+    
+    <label for="fund">ETH Amount</label>
+    <br>
+    <input type="number" id="fundAmount" placeholder="0.1">
+   
+    <button id="fundButton"> Fund </button>
+    <br><br><br>
+
+    <label for="withdraw">Withdraw </label><br>
+    <button id="withdrawButton"> Withdraw </button>
+
+    <h5>
+        <u>NB:</u> To make the withdraw button work for the owner, you need to remove the button from the index and make it a private button. 
+        <br>
+        The withdraw button on the contract will only work for the owner.
+    </h5>
+
+    <script src="js/index.js" type="module"></script>
+
+</body>
+</html>
